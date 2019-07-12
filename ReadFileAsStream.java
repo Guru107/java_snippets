@@ -1,7 +1,7 @@
 import java.nio.Files;
 import java.nio.Paths;
 import java.io.IOException;
-import java.uitl.stream.Stream;
+import java.util.stream.Stream;
 
 class ReadFileAsStream {
   public static void main(String[] args) {
