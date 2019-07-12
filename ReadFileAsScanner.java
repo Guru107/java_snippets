@@ -7,8 +7,9 @@ class ReadFileAsScanner {
       String fileName = "./input.txt";
       Scanner sc = new Scanner(new File(fileName));
       while(sc.hasNextInt()){
-        Syste.out.println(sc.nextInt());
+        System.out.println(sc.nextInt());
       }
+      sc.close();
     }catch(Exception e){
       e.printStackTrace();
     }
